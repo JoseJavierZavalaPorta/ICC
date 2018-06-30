@@ -9,3 +9,13 @@ def dados():
     dado1=random.randint(1,6)
     dado2=random.randint(1,6)
     return dado1,dado2
+    
+#Javier, el input es un string (nombre de tu jugador)
+
+jugador1=input("Ingrese Jugador 1: ")
+lista1=jugada(jugador1)
+print(lista1)
+
+jugador2=input("Ingrese Jugador 2: ")
+lista2=jugada(jugador2)
+print(lista2)
