@@ -12,10 +12,17 @@ def dados():
     
 #Javier, el input es un string (nombre de tu jugador)
 
-jugador1=input("Ingrese Jugador 1: ")
+jugador1=str(input("Ingrese Jugador 1: "))
 lista1=jugada(jugador1)
 print(lista1)
 
 jugador2=input("Ingrese Jugador 2: ")
 lista2=jugada(jugador2)
 print(lista2)
+
+#Génesis, valores tomados por los dados 
+
+if sum(lista1) > sum(lista2):
+    print( lista1, " ", jugador1, "gano a ", lista2, " ", jugador2)
+else:
+    print(lista2, " ", jugador2, "gano a", lista1, " ", jugador1)
