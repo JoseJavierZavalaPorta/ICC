@@ -1,4 +1,4 @@
-Gpenesis, variables a usar
+#Génesis, variables a usar
 
 Pesos=[]
 totalPesos = sumaTotal = 0
@@ -18,3 +18,10 @@ For i in range(1,nro_alumnos +1):
     Pesos.append (pesos)
     
 #añade otras operaciones o no lo sé  :)
+
+totalpersonas = len(Pesos)
+pesomenor = min(Pesos)
+pesomayor = max(Pesos)
+promediopesos = sum(Pesos)/totalpersonas
+
+#Génesis, coloca los print()
