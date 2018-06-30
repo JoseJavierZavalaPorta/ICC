@@ -1,0 +1,5 @@
+Gpenesis, variables a usar
+
+Pesos=[]
+totalPesos = sumaTotal = 0
+contador=0
