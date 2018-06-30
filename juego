@@ -1,0 +1,5 @@
+import random
+def jugada(jugador):
+    lista=[]
+    lista=dados()
+    return lista
