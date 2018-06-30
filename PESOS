@@ -3,3 +3,11 @@ Gpenesis, variables a usar
 Pesos=[]
 totalPesos = sumaTotal = 0
 contador=0
+
+#Javier, he considerado conveniente agregar un input para que el usuario pueda introducir la cantidad de alumnos. 
+En caso el número de alumnos sea 0, el programa arrojará error.
+
+nro_alumnos=int(input("Ingrese número de alumnos: "))
+
+if nro_alumnos == 0:
+    print("Dato no válido. La cantidad debe ser mayor a 1.")
