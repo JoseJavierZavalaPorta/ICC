@@ -11,3 +11,5 @@ nro_alumnos=int(input("Ingrese número de alumnos: "))
 
 if nro_alumnos == 0:
     print("Dato no válido. La cantidad debe ser mayor a 1.")
+
+#Javier, crea un loop, de tal manera que se recorra cada elemento de la lista.
