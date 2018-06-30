@@ -1,0 +1,11 @@
+import random
+def jugada(jugador):
+    lista=[]
+    lista=dados()
+    return lista
+
+def dados():
+    tirardados=input("Pulse enter para tirar los dados")
+    dado1=random.randint(1,6)
+    dado2=random.randint(1,6)
+    return dado1,dado2
