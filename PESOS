@@ -24,4 +24,10 @@ pesomenor = min(Pesos)
 pesomayor = max(Pesos)
 promediopesos = sum(Pesos)/totalpersonas
 
-#Génesis, coloca los print()
+print("El peso mínimo es: ", pesomenor)
+print("El peso máximo es: ", pesomayor)
+print("El promedio de los pesos es: ", promediopesos)
+print("La cantidad de alumnos es: ", cantidad_alumnos)
+
+
+#Génesis ya está terminado!
